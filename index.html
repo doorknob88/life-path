@@ -57,6 +57,33 @@ font-family:Rosewood Std Regular,Arial;
 }
 
 </style>
+<script>
+function univer(){
+    var x = document.getElementById("sel").selectedIndex;
+    var ccode = document.getElementsByTagName("option")[x].value;
+    
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+    }
+    else{
+        // code for IE6, IE5
+        xmlhttp=new ActiveXect("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+        if (xmlhttp.readyState==4 && xmlhttp.status==200){
+            console.log(xmlhttp.responseText);
+        }
+    }
+    xmlhttp.open("POST","detail.php",true);
+    xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    var data = "ccode="+ccode;
+    xmlhttp.send(data);
+
+}
+</script>
+
 </head>
 
 <body background="abcd.jpg">
@@ -65,14 +92,13 @@ font-family:Rosewood Std Regular,Arial;
 <h1> <font color="#fff" face="Rosewood Std Regular,Arial" size="7">LIFE  PATH</font><h1>
 <div class="d2" id="id2" style="position:relative; background-color:grey; left:3px; width:560px; top:38px; height:65px">
 <div class="d3" id="id3" style="position:relative; top:10px;" >
-<select id="sel" name="univname" class="form-control">
-<option>Choose a University...</option>
-<option value="">IIT Mumbai</option>
-<option>NIT Warangal</option>
-<option>VIT Vellore</option>
-<option>BITS Pilani</option>
-<option>SRM Kattankulathur</option>
-<option>LPU Jalandhar</option>
+<select id="sel" onchange="univer()" name="univname" class="form-control">
+<option value="" disabled selected style="display:none;">Choose a University...</option>
+<option value="22">IIT Mumbai</option>
+<option value="25">ASD Gurgoan</option>
+<option value="21">VIT Vellore</option>
+<option value="23">SRM Kattankulathur</option>
+<option value="24">LPU Jalandhar</option>
 </select>
 </div>
 </div>
