@@ -1,19 +1,87 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Life Path</title>
-<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/knockout-3.2.0.js"></script>
-<script type="text/javascript"src="js/lifePath.js"></script>
+<style type="text/css">
+.button-link:hover,.button-link {
+    padding: 10px 100px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+	font-family:Rosewood Std Regular,Arial;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.form-control {
+display: block;
+width: 95%;
+height: 45px;
+padding: 6px 12px;
+font-size: 24px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+input, button, select, textarea {
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+}
+
+label {
+display: inline-block;
+max-width: 100%;
+margin-bottom: 5px;
+font-weight: 700;
+font-size: 40;
+font-family:Rosewood Std Regular,Arial;
+}
+
+</style>
 </head>
-<body>
-	<h1 data-bind="text: changedTitle ">Life Path</h1>
 
+<body background="abcd.jpg">
 
-<button id="tempButton" onClick="changeTitle">hello world</button>
-<input id="textBox" type="text"/>
-
-
+<div class="d1" style="position:relative; top:150px" id="div1"><center>
+<h1> <font color="#fff" face="Rosewood Std Regular,Arial" size="7">LIFE  PATH</font><h1>
+<div class="d2" id="id2" style="position:relative; background-color:grey; left:3px; width:560px; top:38px; height:65px">
+<div class="d3" id="id3" style="position:relative; top:10px;" >
+<select id="sel" name="univname" class="form-control">
+<option>Choose a University...</option>
+<option value="">IIT Mumbai</option>
+<option>NIT Warangal</option>
+<option>VIT Vellore</option>
+<option>BITS Pilani</option>
+<option>SRM Kattankulathur</option>
+<option>LPU Jalandhar</option>
+</select>
+</div>
+</div>
+<br>
+<br>
+<label> <font color="#fff">OR</font></label>
+<br>
+<br>
+<button id="b1" class="button-link"> I Don't Know !!!</button>
+</div>
 </body>
 </html>
