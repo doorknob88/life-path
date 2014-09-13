@@ -34,33 +34,33 @@
       <file leaf-file-name="detail.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="0" selection-end="3599" vertical-scroll-proportion="0.27567568" vertical-offset="0" max-vertical-offset="1207">
+            <state line="15" column="17" selection-start="0" selection-end="3965" vertical-scroll-proportion="0.27567568" vertical-offset="102" max-vertical-offset="1751">
               <folding>
-                <marker date="1410646463313" expanded="true" signature="171:218" placeholder="SELECT name ..college..." />
-                <marker date="1410646463313" expanded="true" signature="264:311" placeholder="SELECT city ..college..." />
-                <marker date="1410646463313" expanded="true" signature="358:406" placeholder="SELECT state..college..." />
-                <marker date="1410646463313" expanded="true" signature="455:505" placeholder="SELECT ranki..college..." />
-                <marker date="1410646463313" expanded="true" signature="552:600" placeholder="SELECT type1..college..." />
-                <marker date="1410646463313" expanded="true" signature="647:695" placeholder="SELECT phone..college..." />
-                <marker date="1410646463313" expanded="true" signature="742:790" placeholder="SELECT email..college..." />
-                <marker date="1410646463313" expanded="true" signature="835:881" placeholder="SELECT url F..college..." />
-                <marker date="1410646463313" expanded="true" signature="928:985" placeholder="SELECT price..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1037:1097" placeholder="SELECT branc..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1148:1207" placeholder="SELECT progr..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1262:1325" placeholder="SELECT eligi..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1380:1443" placeholder="SELECT eligi..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1504:1573" placeholder="SELECT eligi..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1634:1703" placeholder="SELECT appli..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1759:1823" placeholder="SELECT avera..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1875:1935" placeholder="SELECT integ..branch..." />
-                <marker date="1410646463313" expanded="true" signature="1985:2043" placeholder="SELECT durat..branch..." />
-                <marker date="1410646463313" expanded="true" signature="2090:2145" placeholder="SELECT type2..branch..." />
-                <marker date="1410646463313" expanded="true" signature="2192:2247" placeholder="SELECT type2..branch..." />
-                <marker date="1410646463313" expanded="true" signature="2304:2358" placeholder="SELECT url F..company..." />
-                <marker date="1410646463313" expanded="true" signature="2407:2465" placeholder="SELECT profi..company..." />
-                <marker date="1410646463313" expanded="true" signature="2514:2572" placeholder="SELECT packa..company..." />
-                <marker date="1410646463313" expanded="true" signature="2622:2681" placeholder="SELECT lastY..company..." />
-                <marker date="1410646463313" expanded="true" signature="2735:2798" placeholder="SELECT noofs..company..." />
+                <marker date="1410649354274" expanded="true" signature="171:218" placeholder="SELECT name ..college..." />
+                <marker date="1410649354274" expanded="true" signature="277:324" placeholder="SELECT city ..college..." />
+                <marker date="1410649354274" expanded="true" signature="384:432" placeholder="SELECT state..college..." />
+                <marker date="1410649354274" expanded="true" signature="495:545" placeholder="SELECT ranki..college..." />
+                <marker date="1410649354274" expanded="true" signature="602:650" placeholder="SELECT type1..college..." />
+                <marker date="1410649354274" expanded="true" signature="805:853" placeholder="SELECT phone..college..." />
+                <marker date="1410649354274" expanded="true" signature="820:868" placeholder="SELECT email..college..." />
+                <marker date="1410649354274" expanded="true" signature="920:966" placeholder="SELECT url F..college..." />
+                <marker date="1410649354274" expanded="true" signature="1027:1084" placeholder="SELECT price..branch..." />
+                <marker date="1410649354274" expanded="true" signature="1157:1217" placeholder="SELECT branc..branch..." />
+                <marker date="1410649354274" expanded="true" signature="1284:1343" placeholder="SELECT progr..branch..." />
+                <marker date="1410649354274" expanded="true" signature="1423:1486" placeholder="SELECT eligi..branch..." />
+                <marker date="1410649354274" expanded="true" signature="1562:1625" placeholder="SELECT eligi..branch..." />
+                <marker date="1410649354274" expanded="true" signature="1719:1788" placeholder="SELECT eligi..branch..." />
+                <marker date="1410649354274" expanded="true" signature="1876:1945" placeholder="SELECT appli..branch..." />
+                <marker date="1410649354274" expanded="true" signature="2018:2082" placeholder="SELECT avera..branch..." />
+                <marker date="1410649354274" expanded="true" signature="2148:2208" placeholder="SELECT integ..branch..." />
+                <marker date="1410649354274" expanded="true" signature="2272:2330" placeholder="SELECT durat..branch..." />
+                <marker date="1410649354274" expanded="true" signature="2387:2442" placeholder="SELECT type2..branch..." />
+                <marker date="1410649354274" expanded="true" signature="2508:2563" placeholder="SELECT type2..branch..." />
+                <marker date="1410649354274" expanded="true" signature="2636:2690" placeholder="SELECT url F..company..." />
+                <marker date="1410649354274" expanded="true" signature="2774:2832" placeholder="SELECT profi..company..." />
+                <marker date="1410649354274" expanded="true" signature="2881:2939" placeholder="SELECT packa..company..." />
+                <marker date="1410649354274" expanded="true" signature="2898:2957" placeholder="SELECT lastY..company..." />
+                <marker date="1410649354274" expanded="true" signature="3026:3089" placeholder="SELECT noofs..company..." />
               </folding>
             </state>
           </provider>
@@ -210,33 +210,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="0" selection-end="3599" vertical-scroll-proportion="0.27567568" vertical-offset="0" max-vertical-offset="1207">
+        <state line="15" column="17" selection-start="0" selection-end="3965" vertical-scroll-proportion="0.27567568" vertical-offset="102" max-vertical-offset="1751">
           <folding>
-            <marker date="1410646463313" expanded="true" signature="171:218" placeholder="SELECT name ..college..." />
-            <marker date="1410646463313" expanded="true" signature="264:311" placeholder="SELECT city ..college..." />
-            <marker date="1410646463313" expanded="true" signature="358:406" placeholder="SELECT state..college..." />
-            <marker date="1410646463313" expanded="true" signature="455:505" placeholder="SELECT ranki..college..." />
-            <marker date="1410646463313" expanded="true" signature="552:600" placeholder="SELECT type1..college..." />
-            <marker date="1410646463313" expanded="true" signature="647:695" placeholder="SELECT phone..college..." />
-            <marker date="1410646463313" expanded="true" signature="742:790" placeholder="SELECT email..college..." />
-            <marker date="1410646463313" expanded="true" signature="835:881" placeholder="SELECT url F..college..." />
-            <marker date="1410646463313" expanded="true" signature="928:985" placeholder="SELECT price..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1037:1097" placeholder="SELECT branc..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1148:1207" placeholder="SELECT progr..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1262:1325" placeholder="SELECT eligi..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1380:1443" placeholder="SELECT eligi..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1504:1573" placeholder="SELECT eligi..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1634:1703" placeholder="SELECT appli..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1759:1823" placeholder="SELECT avera..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1875:1935" placeholder="SELECT integ..branch..." />
-            <marker date="1410646463313" expanded="true" signature="1985:2043" placeholder="SELECT durat..branch..." />
-            <marker date="1410646463313" expanded="true" signature="2090:2145" placeholder="SELECT type2..branch..." />
-            <marker date="1410646463313" expanded="true" signature="2192:2247" placeholder="SELECT type2..branch..." />
-            <marker date="1410646463313" expanded="true" signature="2304:2358" placeholder="SELECT url F..company..." />
-            <marker date="1410646463313" expanded="true" signature="2407:2465" placeholder="SELECT profi..company..." />
-            <marker date="1410646463313" expanded="true" signature="2514:2572" placeholder="SELECT packa..company..." />
-            <marker date="1410646463313" expanded="true" signature="2622:2681" placeholder="SELECT lastY..company..." />
-            <marker date="1410646463313" expanded="true" signature="2735:2798" placeholder="SELECT noofs..company..." />
+            <marker date="1410649354274" expanded="true" signature="171:218" placeholder="SELECT name ..college..." />
+            <marker date="1410649354274" expanded="true" signature="277:324" placeholder="SELECT city ..college..." />
+            <marker date="1410649354274" expanded="true" signature="384:432" placeholder="SELECT state..college..." />
+            <marker date="1410649354274" expanded="true" signature="495:545" placeholder="SELECT ranki..college..." />
+            <marker date="1410649354274" expanded="true" signature="602:650" placeholder="SELECT type1..college..." />
+            <marker date="1410649354274" expanded="true" signature="805:853" placeholder="SELECT phone..college..." />
+            <marker date="1410649354274" expanded="true" signature="820:868" placeholder="SELECT email..college..." />
+            <marker date="1410649354274" expanded="true" signature="920:966" placeholder="SELECT url F..college..." />
+            <marker date="1410649354274" expanded="true" signature="1027:1084" placeholder="SELECT price..branch..." />
+            <marker date="1410649354274" expanded="true" signature="1157:1217" placeholder="SELECT branc..branch..." />
+            <marker date="1410649354274" expanded="true" signature="1284:1343" placeholder="SELECT progr..branch..." />
+            <marker date="1410649354274" expanded="true" signature="1423:1486" placeholder="SELECT eligi..branch..." />
+            <marker date="1410649354274" expanded="true" signature="1562:1625" placeholder="SELECT eligi..branch..." />
+            <marker date="1410649354274" expanded="true" signature="1719:1788" placeholder="SELECT eligi..branch..." />
+            <marker date="1410649354274" expanded="true" signature="1876:1945" placeholder="SELECT appli..branch..." />
+            <marker date="1410649354274" expanded="true" signature="2018:2082" placeholder="SELECT avera..branch..." />
+            <marker date="1410649354274" expanded="true" signature="2148:2208" placeholder="SELECT integ..branch..." />
+            <marker date="1410649354274" expanded="true" signature="2272:2330" placeholder="SELECT durat..branch..." />
+            <marker date="1410649354274" expanded="true" signature="2387:2442" placeholder="SELECT type2..branch..." />
+            <marker date="1410649354274" expanded="true" signature="2508:2563" placeholder="SELECT type2..branch..." />
+            <marker date="1410649354274" expanded="true" signature="2636:2690" placeholder="SELECT url F..company..." />
+            <marker date="1410649354274" expanded="true" signature="2774:2832" placeholder="SELECT profi..company..." />
+            <marker date="1410649354274" expanded="true" signature="2881:2939" placeholder="SELECT packa..company..." />
+            <marker date="1410649354274" expanded="true" signature="2898:2957" placeholder="SELECT lastY..company..." />
+            <marker date="1410649354274" expanded="true" signature="3026:3089" placeholder="SELECT noofs..company..." />
           </folding>
         </state>
       </provider>

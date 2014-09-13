@@ -1,4 +1,5 @@
 <?php
+require_once("connect.php");
 
 //Get values by POST method
 $profile = $_POST["profile"];
