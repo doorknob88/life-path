@@ -1,19 +1,98 @@
 <?php
+require_once("connect.php");
 
 $ccode = $_POST["ccode"];
 
-$where_subquery = " FROM college WHERE " + ($city)? "city = '$city' AND " + ($state)? "state = '$state' AND " + ($type1)? "type1= '$type1' AND " + ($hostel)? "hostel = '$hostel' AND " + ($name)? "name = '$name' AND " +($extracurricular)? "extracurricular = '$extracurricular' AND " + ($academicfocus)? "academicfocus = '$academicfocus' AND " + ($citytype)? "citytype = '$citytype' AND " + "ccode IN (SELECT ccode FROM branch WHERE " + ($branchname)? "branchname = '$branchname' AND " + ($programme)? "programme = '$programme' AND " + ($eligibility12)? "eligibility12 < '$eligibility12' AND " + ($eligibilityUG)? "eligibilityUG < '$eligibilityUG' AND " + ($eligibilityEntrance)? "eligibilityEntrance = '$eligibilityEntrance' AND applicationdeadline >= curdate() AND " + ($integrated)? "integrated = '$integrated' AND " + ($duration)? "duration = '$duration' AND " + ($type)? "type2 = '$type2')"; 
+$branchcode = $_POST["branchcode"];
 
-$list_query = "SELECT ccode, name, city, state" + $where_subquery;
+$ccode = 21;
 
-$rows = array();
-$list = mysql_query($list_query);
-if($list){
-	while($row = mysql_fetch_assoc($list)){
-		array_push($rows,$row);
-	}
-}
-$list = json_encode($rows);
+$branchcode = 11;
 
-echo $list;
+$name =  mysql_fetch_row(mysql_query("SELECT name FROM college WHERE ccode = '$ccode'"))[0];
+
+echo $name;
+
+$city = mysql_fetch_row(mysql_query("SELECT city FROM college WHERE ccode = '$ccode'"))[0];
+
+echo $city;
+
+$state = mysql_fetch_row(mysql_query("SELECT state FROM college WHERE ccode = '$ccode'"))[0];
+
+echo $state;
+
+$type1 = mysql_fetch_row(mysql_query("SELECT type1 FROM college WHERE ccode = '$ccode'"))[0];
+
+echo $type1;
+
+$phone = mysql_fetch_row(mysql_query("SELECT phone FROM college WHERE ccode = '$ccode'"))[0];
+
+echo $phone;
+
+$email = mysql_fetch_row(mysql_query("SELECT email FROM college WHERE ccode = '$ccode'"))[0];
+
+echo $email;
+
+$url = mysql_fetch_row(mysql_query("SELECT url FROM college WHERE ccode = '$ccode'"))[0];
+
+echo $url;
+
+$price = mysql_fetch_row(mysql_query("SELECT price FROM branch WHERE branchcode = '$branchcode'"))[0];
+
+echo $price;
+
+$branchname = mysql_fetch_row(mysql_query("SELECT branchname FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $branchname;
+
+$programme = mysql_fetch_row(mysql_query("SELECT programme FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $programme;
+
+$eligibility12 = mysql_fetch_row(mysql_query("SELECT eligibility12 FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $eligibility12;
+
+$eligibilityUG = mysql_fetch_row(mysql_query("SELECT eligibilityUG FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $eligibilityUG;
+
+$eligibilityEntrance = mysql_fetch_row(mysql_query("SELECT eligibilityEntrance FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $eligibilityEntrance;
+
+$applicationdeadline = mysql_fetch_row(mysql_query("SELECT applicationdeadline FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $applicationdeadline;
+
+$averagePackage = mysql_fetch_row(mysql_query("SELECT averagePackage FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $averagePackage;
+
+$integrated = mysql_fetch_row(mysql_query("SELECT integrated FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $integrated;
+
+$duration = mysql_fetch_row(mysql_query("SELECT duration FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $duration;
+
+$type2 = mysql_fetch_row(mysql_query("SELECT type2 FROM branch WHERE branchcode='$branchcode'"))[0];
+echo $type2;
+
+$companyname = mysql_fetch_row(mysql_query("SELECT name FROM company WHERE branchcode='$branchcode'"))[0];
+echo $companyname;
+
+$companyurl= mysql_fetch_row(mysql_query("SELECT url FROM company WHERE branchcode='$branchcode'"))[0];
+echo $companyurl;
+
+$profile = mysql_fetch_row(mysql_query("SELECT profile FROM company WHERE branchcode='$branchcode'"))[0];
+echo $profile;
+
+$package = mysql_fetch_row(mysql_query("SELECT package FROM company WHERE branchcode='$branchcode'"))[0];
+echo $package;
+
+$lastYear = mysql_fetch_row(mysql_query("SELECT lastYear FROM company WHERE branchcode='$branchcode'"))[0];
+echo $lastYear;
+
+$noofstudents = mysql_fetch_row(mysql_query("SELECT noofstudents FROM company WHERE branchcode='$branchcode'"))[0];
+echo $noofstudents;
+
+$data = array("ccode" => "$ccode", "branchcode" => "$branchcode", "name" => "$name", "city" => "$city", "state" => "$state", "type1" => "$type1", "phone" => "$phone1", "email" => "$email", "url" => "$url", "price" => "$price", "branchname" => "$branchname", "programme" => "$programme", "eligibility12" => "$eligibility12", "eligibilityUG" => "$eligibilityUG", "eligibilityEntrance" => "$eligibilityEntrance", "applicationdeadline" => "$applicationdeadline", , "averagePackage" => "$averagePackage", "integrated" => "$integrated", "duration" => "$duration", "type2" => "$type2", "companyname" => "$companyname", "companyurl" => "$companyurl", "profile" => "$profile", "package" => "$package", "lastYear" => "$lastYear", "noofstudents" => "$noofstudents");
+$output_assembly->JSON->Data = $data;
+$json = json_encode((array)$data );
+
+echo $json;
+
 ?>
